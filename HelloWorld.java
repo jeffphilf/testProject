@@ -16,7 +16,8 @@ import java.util.Scanner;
  *
  */
 public class HelloWorld {
-	
+	private static final int CONSTANT_VAR = 123;
+
 	public static void main(String[] args) {
 		/*
 		lol == lol2 won't work because new String(arg) doesn't put arg in string pool
